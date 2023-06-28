@@ -43,6 +43,27 @@ export const Container = styled.div`
     }
   }
 
+  .benefits {
+    padding: 2.8rem 6.2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+
+    > div {
+      max-width: 35.8rem;
+      display: flex;
+      gap: 2.4rem;
+    }
+
+    p {
+      max-width: 26.2rem;
+      color: ${({ theme }) => theme.COLORS.DARK};
+      font-size: clamp(1.6rem,.8rem + 5vw , 2rem);
+      font-weight: lighter;
+      text-align: justify;
+    }
+  }
+
 `;
 
 export const Section = styled.section`

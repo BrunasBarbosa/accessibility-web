@@ -18,4 +18,9 @@ export default createGlobalStyle`
     --web-font-smoothing: antialiased;
     font-family: var(--font-main);
   }
+
+  a, 
+  button {
+    cursor: pointer;
+  }
 `;
