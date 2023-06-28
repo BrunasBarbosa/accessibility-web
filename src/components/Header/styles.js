@@ -6,5 +6,4 @@ export const Container = styled.header`
   justify-content: space-between;
 
   padding: 4.6rem 6.8rem 0%;
-
 `;

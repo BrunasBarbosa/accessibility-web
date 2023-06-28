@@ -11,10 +11,10 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
   }
 
   body {
-    font-size: 62.5%;
     --web-font-smoothing: antialiased;
     font-family: var(--font-main);
   }
